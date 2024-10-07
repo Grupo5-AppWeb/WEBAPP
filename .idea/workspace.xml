@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Garayar-u202014115" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OscarGarayar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Grupo5-AppWeb/ReGrill-WebApplication.git&quot;,
+    &quot;accountId&quot;: &quot;e77f64be-0456-4cf5-a951-44205234febe&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mfFGAEKcWVXqKOmUUmR2yh9ec9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\user-management\profile\views" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\user-management\profile\services" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\user-management\profile\model" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\order-management\order-list" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\communications\notifications" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19072.23" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="" />
+      <created>1727459626022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727459626022</updated>
+      <workItem from="1727459627114" duration="32883000" />
+      <workItem from="1727549118862" duration="33000" />
+      <workItem from="1727549158783" duration="1513000" />
+      <workItem from="1728340311841" duration="887000" />
+      <workItem from="1728342078000" duration="628000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
+      <option name="closed" value="true" />
+      <created>1727511380343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727511380343</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Supplier order list fixed">
+      <option name="closed" value="true" />
+      <created>1727511404118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727511404118</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Supplier Profile Implemented">
+      <option name="closed" value="true" />
+      <created>1727511501660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727511501660</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: fixed problems">
+      <option name="closed" value="true" />
+      <created>1727511520689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727511520689</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: fixed problems">
+      <option name="closed" value="true" />
+      <created>1727511628920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727511628920</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: deploy to Docker">
+      <option name="closed" value="true" />
+      <created>1727514003612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727514003612</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Supplier profile implemented" />
+    <MESSAGE value="feat: Supplier order list fixed" />
+    <MESSAGE value="feat: Supplier Profile Implemented" />
+    <MESSAGE value="fix: fixed problems" />
+    <MESSAGE value="feat: deploy to Docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: deploy to Docker" />
+  </component>
+</project>
