@@ -13,9 +13,14 @@ const router = createRouter({
                     redirect: '/supplier/dashboard'
                 },
                 {
+                  path: '/auth/login',
+                  name: 'login',
+                    component: () => import('@/suppliers/user-management/auth/views/Login.vue')
+                },
+                {
                     path: '/supplier/dashboard',
                     name: 'dashboard',
-                    component: () => import('@/public/views/Dashboard.vue')
+                    component: () => import('@/suppliers/public/views/Dashboard.vue')
                 },
                 {
                     path: '/supplier/orderlist',
@@ -32,6 +37,11 @@ const router = createRouter({
                     name: 'profile',
                     component: () => import('@/suppliers/user-management/profile/views/SupplierProfile.vue')
                 },
+
+                //-------------------------------------------------------------------------------------------------------------------------------
+                //-------------------------------------------------------------------------------------------------------------------------------
+                //-------------------------------------------------------------------------------------------------------------------------------
+                //-------------------------------------------------------------------------------------------------------------------------------
                 {
                     path: '/uikit/formlayout',
                     name: 'formlayout',
@@ -134,7 +144,7 @@ const router = createRouter({
         {
             path: '/auth/login',
             name: 'login',
-            component: () => import('@/views/pages/auth/Login.vue')
+            component: () => import('@/suppliers/user-management/auth/views/Login.vue')
         },
         {
             path: '/auth/access',

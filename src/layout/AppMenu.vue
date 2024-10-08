@@ -11,6 +11,7 @@ const model = ref([
             { label: 'Order List', icon: 'pi pi-fw pi-table', to: '/supplier/orderlist' },
             { label: 'Notifications', icon: 'pi pi-fw pi-bell', to: '/supplier/notifications' },
             { label: 'Profile', icon: 'pi pi-fw pi-user', to: '/supplier/profile' },
+            { label: 'Log-out', icon: 'pi pi-fw pi-sign-in', to: '/auth/login' },
 
 
 
