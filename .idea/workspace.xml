@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suppliers/order-management/order-list/model/supplier-order.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/order-management/order-list/model/supplier-order.entity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suppliers/order-management/order-list/views/OrderList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/order-management/order-list/views/OrderList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/views/SupplierProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/views/SupplierProfile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/managers/sale-management/bills-list/pages/invoice-list.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/sale-management/bills-list/pages/invoice-list.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suppliers/order-management/order-list/services/supplier-order-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/order-management/order-list/services/supplier-order-api.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,7 @@
       <list>
         <option value="Vue Composition API Component" />
         <option value="JavaScript File" />
+        <option value="Vue Options API Component" />
       </list>
     </option>
   </component>
@@ -75,7 +72,8 @@
   },
   "keyToStringList": {
     "vue.recent.templates": [
-      "Vue Composition API Component"
+      "Vue Composition API Component",
+      "Vue Options API Component"
     ]
   }
 }]]></component>
@@ -108,7 +106,7 @@
       <workItem from="1727549158783" duration="1513000" />
       <workItem from="1728340311841" duration="887000" />
       <workItem from="1728342078000" duration="628000" />
-      <workItem from="1730006578505" duration="3215000" />
+      <workItem from="1730006578505" duration="5007000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />
