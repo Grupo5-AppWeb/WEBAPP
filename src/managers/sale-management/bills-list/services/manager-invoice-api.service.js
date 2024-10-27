@@ -1,4 +1,4 @@
-import Invoice from '@/managers/sale-management/bills-list/model/manager-invoice.entity';
+import { Invoice } from '@/managers/sale-management/bills-list/model/manager-invoice.entity';
 import axios from 'axios';
 
 export class InvoiceApiService {
@@ -26,7 +26,7 @@ export class InvoiceApiService {
         const date = new Date().toISOString().split('T')[0]; // Fecha en formato YYYY-MM-DD
 
         const response = await axios.post(url, {
-            id: id,
+            id: 0,
             invoiceNumber: invoiceNumber,
             date: date,
             client: invoiceData.client,

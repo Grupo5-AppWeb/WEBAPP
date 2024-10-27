@@ -20,7 +20,7 @@ onMounted(async () => {
 </script>
 
 <template>
-    <Splitter style="height: 300px">
+    <Splitter style="height: 640px">
         <SplitterPanel class="flex items-center justify-center" :size="20" :minSize="10">
             <Avatar icon="pi pi-user" class="mr-2" size="xlarge"></Avatar>
         </SplitterPanel>
@@ -33,22 +33,6 @@ onMounted(async () => {
                 </SplitterPanel>
                 <SplitterPanel :size="85">
                     <Splitter>
-                        <SplitterPanel class="flex items-center justify-center" :size="20">
-                            <div v-for="profile in profiles" :key="profile.id" class="mb-4">
-                                <!-- Creamos los datos para el gráfico basados en cada perfil -->
-                                <Chart
-                                    type="doughnut"
-                                    :data="{
-                                        labels: ['Finished', 'Pending'],
-                                        datasets: [{
-                                            data: [profile.ordersFinished, profile.ordersPending],
-                                            backgroundColor: ['#36A2EB', '#FF6384'] // Opcional
-                                        }]
-                                    }"
-                                    class="w-full md:w-[10rem]"
-                                />
-                            </div>
-                        </SplitterPanel>
                         <SplitterPanel class="flex items-center justify-center" :size="80">
                             <div v-for="profile in profiles" :key="profile.id" class="mb-4">
                                 <p>{{ profile.description }}</p>

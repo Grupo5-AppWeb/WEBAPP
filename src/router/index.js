@@ -23,14 +23,19 @@ const router = createRouter({
                     component: () => import('@/suppliers/order-management/order-list/views/OrderList.vue')
                 },
                 {
-                    path:'/supplier/notifications',
+                    path: '/supplier/notifications',
                     name: 'notifications',
-                    component:() => import('@/suppliers/communications/notifications/views/Notifications.vue')
+                    component: () => import('@/suppliers/communications/notifications/views/Notifications.vue')
                 },
                 {
                     path: '/supplier/profile',
                     name: 'profile',
                     component: () => import('@/suppliers/user-management/profile/views/SupplierProfile.vue')
+                },
+                {
+                    path: '/manager/bills',
+                    name: 'bills',
+                    component: () => import('@/managers/sale-management/bills-list/pages/invoice-list.component.vue')
                 },
                 {
                     path: '/uikit/formlayout',

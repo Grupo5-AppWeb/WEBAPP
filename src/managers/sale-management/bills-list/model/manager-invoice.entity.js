@@ -1,5 +1,5 @@
-export default class Invoice {
-    constructor({ id, invoiceNumber, date, client, total, status }) {
+export class Invoice {
+    constructor( id, invoiceNumber, date, client, total, status ) {
         this.id = id;
         this.invoiceNumber = invoiceNumber;
         this.date = date;

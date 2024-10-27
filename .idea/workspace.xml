@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/AppMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/AppMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/managers/sale-management/bills-list/model/manager-invoice.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/sale-management/bills-list/model/manager-invoice.entity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/managers/sale-management/bills-list/pages/invoice-list.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/sale-management/bills-list/pages/invoice-list.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suppliers/order-management/order-list/services/supplier-order-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/order-management/order-list/services/supplier-order-api.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/managers/sale-management/bills-list/services/manager-invoice-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/sale-management/bills-list/services/manager-invoice-api.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/views/SupplierProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/views/SupplierProfile.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +113,7 @@
       <workItem from="1727549158783" duration="1513000" />
       <workItem from="1728340311841" duration="887000" />
       <workItem from="1728342078000" duration="628000" />
-      <workItem from="1730006578505" duration="5007000" />
+      <workItem from="1730006578505" duration="19637000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />
