@@ -99,5 +99,48 @@
             "isRead": true,
             "createdAt": "2023-09-25T15:20:00Z"
         }
+    ],
+    "invoices": [
+        {
+            "id": 1,
+            "invoiceNumber": "F001-000001",
+            "date": "2024-10-27",
+            "client": "Juan Pérez",
+            "total": 150.75,
+            "status": "Paid"
+        },
+        {
+            "id": 2,
+            "invoiceNumber": "F001-000002",
+            "date": "2024-10-26",
+            "client": "María López",
+            "total": 275.50,
+            "status": "Pending"
+        },
+        {
+            "id": 3,
+            "invoiceNumber": "F001-000003",
+            "date": "2024-10-25",
+            "client": "Carlos Sánchez",
+            "total": 180.00,
+            "status": "Cancelled"
+        },
+        {
+            "id": 4,
+            "invoiceNumber": "F001-000004",
+            "date": "2024-10-24",
+            "client": "Lucía Rodríguez",
+            "total": 320.25,
+            "status": "Paid"
+        },
+        {
+            "id": 5,
+            "invoiceNumber": "F001-000005",
+            "date": "2024-10-23",
+            "client": "Pedro Gómez",
+            "total": 120.00,
+            "status": "Pending"
+        }
     ]
+
 }

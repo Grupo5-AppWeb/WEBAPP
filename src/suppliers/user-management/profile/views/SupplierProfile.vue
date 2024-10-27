@@ -20,7 +20,7 @@ onMounted(async () => {
 </script>
 
 <template>
-    <Splitter style="height: 300px" >
+    <Splitter style="height: 300px">
         <SplitterPanel class="flex items-center justify-center" :size="20" :minSize="10">
             <Avatar icon="pi pi-user" class="mr-2" size="xlarge"></Avatar>
         </SplitterPanel>
@@ -29,7 +29,8 @@ onMounted(async () => {
                 <SplitterPanel class="flex items-center justify-center" :size="15">
                     <div v-for="profile in profiles" :key="profile.id" class="mb-4">
                         <h3>{{ profile.name }}</h3>
-                    </div> </SplitterPanel>
+                    </div>
+                </SplitterPanel>
                 <SplitterPanel :size="85">
                     <Splitter>
                         <SplitterPanel class="flex items-center justify-center" :size="20">
