@@ -1,14 +1,15 @@
 <script setup>
-import { inject, onMounted, ref } from 'vue';
+import { getCurrentInstance, onMounted, ref } from 'vue';
 import { InvoiceApiService } from '@/managers/sale-management/bills-list/services/manager-invoice-api.service';
 
-const $toast = inject('$toast');
+
 const expandedRows = ref([]);
 const invoices = ref([]);
 const invoiceService = new InvoiceApiService();
 const visible = ref(false);
 const item = ref({ client: '', total: null, status: '' });
 const submitted = ref(false);
+const { proxy } = getCurrentInstance();
 const statuses = ref([
     { label: 'Pending', value: 'pending' },
     { label: 'Paid', value: 'paid' },
@@ -16,7 +17,7 @@ const statuses = ref([
 ]);
 
 function notifySuccessfulAction(message) {
-    $toast.add({ severity: 'success', summary: 'Success', detail: message, life: 3000 });
+    proxy.$toast.add({ severity: 'success', summary: 'Success', detail: message, life: 3000 });
 }
 
 onMounted(async () => {
@@ -67,7 +68,9 @@ const onRowCollapse = (event) => {
             <div class="font-semibold text-xl mb-4">Invoice List</div>
         </div>
 
-        <pv-button label="New" icon="pi pi-plus" @click="showDialog" />
+        <div class="flex justify-end">
+            <pv-button label="New" icon="pi pi-plus" @click="showDialog" />
+        </div>
 
         <DataTable v-model:expandedRows="expandedRows" :value="invoices" paginator :rows="5"
                    :rows-per-page-options="[5, 10, 20, 50]" dataKey="id"

@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/AppMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/AppMenu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/managers/sale-management/bills-list/model/manager-invoice.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/sale-management/bills-list/model/manager-invoice.entity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/managers/sale-management/bills-list/pages/invoice-list.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/sale-management/bills-list/pages/invoice-list.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/managers/sale-management/bills-list/services/manager-invoice-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/sale-management/bills-list/services/manager-invoice-api.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/services/supplier-profile-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/services/supplier-profile-api.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/views/SupplierProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/views/SupplierProfile.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20241027_0000",
+    "com.google.cloudcode.ide_session_index": "20241027_0002",
     "git-widget-placeholder": "Marzál-U201824409",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/jamir/Documents/Apps Web/WEBAPP",
@@ -113,7 +108,8 @@
       <workItem from="1727549158783" duration="1513000" />
       <workItem from="1728340311841" duration="887000" />
       <workItem from="1728342078000" duration="628000" />
-      <workItem from="1730006578505" duration="19637000" />
+      <workItem from="1730006578505" duration="20962000" />
+      <workItem from="1730083494630" duration="17371000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />

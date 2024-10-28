@@ -6,7 +6,7 @@
       "address": "123 Industrial Road, Cityville",
       "email": "contact@abcsupplies.com",
       "phoneNumber": "123-456-7890",
-      "contactPerson": "John Doe",
+      "contactPerson": "John Doee",
       "description": "Leading supplier of industrial tools and machinery.",
       "businessType": "Manufacturing",
       "ordersFinished": 10,
@@ -163,6 +163,14 @@
       "client": "Carlos",
       "total": 23,
       "status": "pending"
+    },
+    {
+      "id": 9,
+      "invoiceNumber": "F001-414357",
+      "date": "2024-10-28",
+      "client": "Jose",
+      "total": 23,
+      "status": "paid"
     }
   ]
 }
