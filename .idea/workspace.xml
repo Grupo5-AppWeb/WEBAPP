@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker" />
+    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker">
+      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/model/recipe.entity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/services/recipe-api.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-add.component.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-grid.component.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/views/view-recipe.component.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/http-common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/login.component.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/register.component.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/toolbar-login.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/model/supplier-profile.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/model/supplier-profile.entity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/services/supplier-profile-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/services/supplier-profile-api.service.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Garayar-u202014115" />
+        <entry key="$PROJECT_DIR$" value="Garayar-U202014115" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,8 +50,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Grupo5-AppWeb/ReGrill-WebApplication.git&quot;,
-    &quot;accountId&quot;: &quot;e77f64be-0456-4cf5-a951-44205234febe&quot;
+    &quot;url&quot;: &quot;https://github.com/Grupo5-AppWeb/WEBAPP.git&quot;,
+    &quot;accountId&quot;: &quot;b43c54b2-121d-4802-9f13-13614b3a853c&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -49,26 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Huapaya-U202220235",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Front-End-SistemasOperativos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "ts.external.directory.path": "C:\\Users\\Antho\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\user-management\profile\views" />
@@ -81,7 +98,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19072.23" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -98,6 +115,8 @@
       <workItem from="1727549158783" duration="1513000" />
       <workItem from="1728340311841" duration="887000" />
       <workItem from="1728342078000" duration="628000" />
+      <workItem from="1729990621123" duration="3781000" />
+      <workItem from="1730245205672" duration="13176000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />

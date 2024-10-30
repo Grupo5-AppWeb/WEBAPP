@@ -33,6 +33,21 @@ const router = createRouter({
                     component: () => import('@/suppliers/user-management/profile/views/SupplierProfile.vue')
                 },
                 {
+                    path: '/recipe',
+                    name: 'recipe',
+                    component: () => import('@/administrator/recipes/views/recipe-grid.component.vue')
+                },
+                {
+                    path: '/recipe/recipeAdd',
+                    name: 'RecipeAdd',
+                    component: () => import('@/administrator/recipes/views/recipe-add.component.vue')
+                },
+                {
+                    path: '/recipe/viewRecipe',
+                    name: 'ViewRecipe',
+                    component: () => import('@/administrator/recipes/views/view-recipe.component.vue')
+                },
+                {
                     path: '/uikit/formlayout',
                     name: 'formlayout',
                     component: () => import('@/views/uikit/FormLayout.vue')
@@ -132,10 +147,17 @@ const router = createRouter({
         },
 
         {
-            path: '/auth/login',
+            path: '/login',
             name: 'login',
-            component: () => import('@/views/pages/auth/Login.vue')
+            component: () => import('@/views/pages/login.component.vue')
         },
+
+        {
+            path: '/register',
+            name: 'register',
+            component: () => import('@/views/pages/register.component.vue')
+        },
+
         {
             path: '/auth/access',
             name: 'accessDenied',
