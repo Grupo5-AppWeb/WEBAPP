@@ -100,4 +100,42 @@
             "createdAt": "2023-09-25T15:20:00Z"
         }
     ]
+,
+    "AdminStock": [
+        {
+            "id": 1,
+            "date": "2024-09-02",
+            "ingredient": "Rice",
+            "quantity": "2kg",
+            "supplier": "Rodrigo"
+        },
+        {
+            "id": 2,
+            "date": "2024-09-02",
+            "ingredient": "Rice",
+            "quantity": "2kg",
+            "supplier": "Rodrigo"
+        },
+        {
+            "id": 3,
+            "date": "2024-09-02",
+            "ingredient": "Rice",
+            "quantity": "2kg",
+            "supplier": "Rodrigo"
+        },
+        {
+            "id": 4,
+            "date": "2024-09-02",
+            "ingredient": "Rice",
+            "quantity": "2kg",
+            "supplier": "Rodrigo"
+        },
+        {
+            "id": 5,
+            "date": "2024-09-02",
+            "ingredient": "Rice",
+            "quantity": "2kg",
+            "supplier": "Rodrigo"
+        }
+    ]
 }
