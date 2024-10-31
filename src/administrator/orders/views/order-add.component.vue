@@ -1,5 +1,6 @@
 <script>
 import { OrdersApiService } from '@/administrator/orders/services/orders-api.service';
+import { Order } from '@/administrator/orders/model/order.entity';
 
 export default {
     data() {
@@ -15,18 +16,11 @@ export default {
     methods: {
         async submitOrder() {
             if (this.cash && this.name && this.table && this.isValidTime(this.time) && this.status && this.quantity) {
-                const newOrder = {
-                    cash: this.cash,
-                    name: this.name,
-                    table: this.table,
-                    time: this.time,
-                    status: this.status,
-                    quantity: this.quantity
-                };
+                var newOrder = new Order(0, this.cash, this.name, this.table, this.time, this.status, this.quantity);
                 console.log(newOrder);
                 const orderApiService = new OrdersApiService();
                 try {
-                    const response = await orderApiService.create(newOrder);
+                    const response = await orderApiService.create(newOrder.toApiRequest());
                     if (response.status === 201) {
                         alert('New order add');
                         this.$router.push('/orders');
@@ -86,6 +80,7 @@ export default {
 
 <style scoped>
 .container {
+    margin-top: 78px;
     height: 100vh;
     width: 71vw;
     display: flex;

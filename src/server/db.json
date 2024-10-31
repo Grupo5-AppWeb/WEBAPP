@@ -222,50 +222,6 @@
       "image": "https://img.taste.com.au/kdMbjArS/taste/2010/01/chocolate-brownies-118925-2.jpg"
     }
   ],
-  "ShrinkageHistory": [
-    {
-      "date": "02/20/2023",
-      "ingredient": "Raspberry",
-      "lostQuantity": "One can",
-      "reason": "Expiration",
-      "productionCost": "Email"
-    },
-    {
-      "date": "03/15/2023",
-      "ingredient": "Lettuce",
-      "lostQuantity": "500 grams",
-      "reason": "Poor storage",
-      "productionCost": "Password"
-    },
-    {
-      "date": "04/28/2023",
-      "ingredient": "Chicken",
-      "lostQuantity": "2 kilograms",
-      "reason": "Incorrect preparation",
-      "productionCost": "Email"
-    },
-    {
-      "date": "05/10/2023",
-      "ingredient": "Flour",
-      "lostQuantity": "1 bag",
-      "reason": "Cross-contamination",
-      "productionCost": "Password"
-    },
-    {
-      "date": "06/05/2023",
-      "ingredient": "Cheese",
-      "lostQuantity": "200 grams",
-      "reason": "Overstock",
-      "productionCost": "Octopus and Shrimp Ceviche with Yellow Chili Tiger's Milk"
-    },
-    {
-      "date": "07/18/2023",
-      "ingredient": "Tomato",
-      "lostQuantity": "3 units",
-      "reason": "Transport damage",
-      "productionCost": "Seafood Paella"
-    }
-  ],
   "orders": [
     {
       "id": 1,
@@ -284,6 +240,15 @@
       "time": "12:30",
       "status": "Ready",
       "quantity": 1
+    },
+    {
+      "id": 3,
+      "cash": 3,
+      "name": "Mostro",
+      "table": 4,
+      "time": "10:10",
+      "status": "In preparation",
+      "quantity": 4
     }
   ]
 }

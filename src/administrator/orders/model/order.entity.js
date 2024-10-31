@@ -22,4 +22,17 @@ export class Order {
             apiData.quantity,
         )
     }
+
+
+    toApiRequest() {
+        return {
+            id: 0,
+            cash: this.cash,
+            name: this.name,
+            table: this.table,
+            time: this.time,
+            status: this.status,
+            quantity: this.quantity
+        };
+    }
 }

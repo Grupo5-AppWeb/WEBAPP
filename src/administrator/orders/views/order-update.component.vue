@@ -5,7 +5,7 @@ import { OrdersApiService } from '@/administrator/orders/services/orders-api.ser
 export default {
     data() {
         return {
-            order: new Order(),
+            order: null,
         };
     },
     created() {
@@ -17,7 +17,8 @@ export default {
             const orderApiService = new OrdersApiService();
             try {
                 const response = await orderApiService.getById(id);
-                this.order = Order.fromApiResponse(response.data);
+                this.order = response.data;
+                console.log(this.order);
             } catch (error) {
                 console.error('Error fetching order details:', error);
             }
@@ -36,7 +37,7 @@ export default {
 </script>
 
 <template>
-    <div class="order-update-container">
+    <div class="order-update-container" v-if="order">
         <h2>Update Order</h2>
         <form @submit.prevent="updateOrder" class="order-form">
             <div class="form-group">

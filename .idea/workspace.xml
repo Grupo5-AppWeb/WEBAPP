@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="add: recipes part">
-      <change afterPath="$PROJECT_DIR$/src/administrator/orders/model/order.entity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrator/orders/services/orders-api.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-add.component.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-update.component.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-view.component.vue" afterDir="false" />
+    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="update: orders add and delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrator/orders/model/order.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/orders/model/order.entity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrator/orders/views/order-add.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-add.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrator/orders/views/order-update.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-update.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrator/orders/views/order-view.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-view.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-add.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-add.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-grid.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-grid.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrator/recipes/views/view-recipe.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/recipes/views/view-recipe.component.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +112,7 @@
       <workItem from="1729990621123" duration="3781000" />
       <workItem from="1730245205672" duration="13894000" />
       <workItem from="1730297283767" duration="1497000" />
+      <workItem from="1730378869425" duration="3860000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />
@@ -168,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730259275500</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update: orders add and delete">
+      <option name="closed" value="true" />
+      <created>1730352706494</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730352706494</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +202,7 @@
     <MESSAGE value="fix: fixed problems" />
     <MESSAGE value="feat: deploy to Docker" />
     <MESSAGE value="add: recipes part" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: recipes part" />
+    <MESSAGE value="update: orders add and delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: orders add and delete" />
   </component>
 </project>

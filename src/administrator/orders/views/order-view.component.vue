@@ -52,6 +52,12 @@ export default {
 </template>
 
 <style scoped>
+.button-add {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .order-item {
     margin-bottom: 10px;
     padding: 10px;
@@ -69,7 +75,7 @@ export default {
     border: none;
     border-radius: 8px;
     background-color: #007bff;
-    align-items: center;
+    justify-content: center;
     color: white;
     cursor: pointer;
 }

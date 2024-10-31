@@ -1,8 +1,6 @@
 <script>
 import { RecipeApiService } from '@/administrator/recipes/services/recipe-api.service';
 import { Recipe } from '@/administrator/recipes/model/recipe.entity';
-import { useLayout } from '@/layout/composables/layout';
-import { ref, watch } from 'vue';
 
 export default {
     data() {
@@ -35,78 +33,10 @@ export default {
             this.recipes = response.data.map((recipesData) => Recipe.fromApiResponse(recipesData));
             console.log(this.recipes);
         } catch (error) {
-            console.error('Error fetching shrinkage history:', error);
+            console.error('Error fetching recipe:', error);
         }
     }
 };
-
-const { getPrimary, getSurface, isDarkTheme } = useLayout();
-
-const chartData = ref(null);
-const chartOptions = ref(null);
-
-function setChartData() {
-    const documentStyle = getComputedStyle(document.documentElement);
-
-    return {
-        labels: ['2023', '2024'],
-        datasets: [
-            {
-                type: 'bar',
-                label: 'Supplies',
-                backgroundColor: documentStyle.getPropertyValue('--p-primary-400'),
-                data: [4000, 10000],
-                barThickness: 32
-            },
-            {
-                type: 'bar',
-                label: 'Delivery',
-                backgroundColor: documentStyle.getPropertyValue('--p-primary-300'),
-                data: [2100, 8400],
-                barThickness: 32
-            }
-        ]
-    };
-}
-
-function setChartOptions() {
-    const documentStyle = getComputedStyle(document.documentElement);
-    const borderColor = documentStyle.getPropertyValue('--surface-border');
-    const textMutedColor = documentStyle.getPropertyValue('--text-color-secondary');
-
-    return {
-        maintainAspectRatio: false,
-        aspectRatio: 0.8,
-        scales: {
-            x: {
-                stacked: true,
-                ticks: {
-                    color: textMutedColor
-                },
-                grid: {
-                    color: 'transparent',
-                    borderColor: 'transparent'
-                }
-            },
-            y: {
-                stacked: true,
-                ticks: {
-                    color: textMutedColor
-                },
-                grid: {
-                    color: borderColor,
-                    borderColor: 'transparent',
-                    drawTicks: false
-                }
-            }
-        }
-    };
-}
-
-watch([getPrimary, getSurface, isDarkTheme], () => {
-    chartData.value = setChartData();
-    chartOptions.value = setChartOptions();
-});
 </script>
 
 <template>
