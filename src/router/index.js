@@ -48,6 +48,21 @@ const router = createRouter({
                     component: () => import('@/administrator/recipes/views/view-recipe.component.vue')
                 },
                 {
+                    path: '/orders',
+                    name: 'Orders',
+                    component: () => import('@/administrator/orders/views/order-view.component.vue')
+                },
+                {
+                    path: '/orders/updateOrder',
+                    name: 'UpdateOrder',
+                    component: () => import('@/administrator/orders/views/order-update.component.vue')
+                },
+                {
+                    path: '/orders/addOrder',
+                    name: 'OrderAdd',
+                    component: () => import('@/administrator/orders/views/order-add.component.vue')
+                },
+                {
                     path: '/uikit/formlayout',
                     name: 'formlayout',
                     component: () => import('@/views/uikit/FormLayout.vue')

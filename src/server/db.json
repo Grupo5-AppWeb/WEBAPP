@@ -265,5 +265,25 @@
       "reason": "Transport damage",
       "productionCost": "Seafood Paella"
     }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "cash": 1,
+      "name": "Lemonade",
+      "table": 2,
+      "time": "11:53",
+      "status": "In preparation",
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "cash": 2,
+      "name": "Burger",
+      "table": 5,
+      "time": "12:30",
+      "status": "Ready",
+      "quantity": 1
+    }
   ]
 }
