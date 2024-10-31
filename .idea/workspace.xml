@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker">
-      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/model/recipe.entity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/services/recipe-api.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-add.component.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-grid.component.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrator/recipes/views/view-recipe.component.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/http-common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/login.component.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/register.component.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/toolbar-login.component.vue" afterDir="false" />
+    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="add: recipes part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/model/supplier-profile.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/model/supplier-profile.entity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/services/supplier-profile-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/services/supplier-profile-api.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Huapaya-U202220235",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Front-End-SistemasOperativos",
+    "last_opened_file_path": "D:/Front-End Github/LearnE-Frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,7 +102,8 @@
       <workItem from="1728340311841" duration="887000" />
       <workItem from="1728342078000" duration="628000" />
       <workItem from="1729990621123" duration="3781000" />
-      <workItem from="1730245205672" duration="13176000" />
+      <workItem from="1730245205672" duration="13894000" />
+      <workItem from="1730297283767" duration="1497000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />
@@ -166,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727514003612</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add: recipes part">
+      <option name="closed" value="true" />
+      <created>1730259275500</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730259275500</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +184,7 @@
     <MESSAGE value="feat: Supplier Profile Implemented" />
     <MESSAGE value="fix: fixed problems" />
     <MESSAGE value="feat: deploy to Docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: deploy to Docker" />
+    <MESSAGE value="add: recipes part" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: recipes part" />
   </component>
 </project>
