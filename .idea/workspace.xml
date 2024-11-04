@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="update: orders add and delete">
+    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="update: orders add delete update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrator/orders/model/order.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/orders/model/order.entity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrator/orders/views/order-add.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-add.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrator/orders/views/order-update.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-update.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrator/orders/views/order-view.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/orders/views/order-view.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-add.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-add.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-grid.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/recipes/views/recipe-grid.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrator/recipes/views/view-recipe.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrator/recipes/views/view-recipe.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +104,8 @@
       <workItem from="1729990621123" duration="3781000" />
       <workItem from="1730245205672" duration="13894000" />
       <workItem from="1730297283767" duration="1497000" />
-      <workItem from="1730378869425" duration="3860000" />
+      <workItem from="1730378869425" duration="4024000" />
+      <workItem from="1730391288092" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />
@@ -178,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730352706494</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update: orders add delete update">
+      <option name="closed" value="true" />
+      <created>1730382827363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730382827364</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +204,7 @@
     <MESSAGE value="feat: deploy to Docker" />
     <MESSAGE value="add: recipes part" />
     <MESSAGE value="update: orders add and delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: orders add and delete" />
+    <MESSAGE value="update: orders add delete update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: orders add delete update" />
   </component>
 </project>
