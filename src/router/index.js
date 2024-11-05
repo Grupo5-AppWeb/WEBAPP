@@ -33,6 +33,11 @@ const router = createRouter({
                     component: () => import('@/suppliers/user-management/profile/views/SupplierProfile.vue')
                 },
                 {
+                    path: '/supplier/new-orders',
+                    name: 'new_order',
+                    component: () => import('@/suppliers/order-management/order-list/views/NewOrderList.vue')
+                },
+                {
                     path: '/manager/bills',
                     name: 'bills',
                     component: () => import('@/managers/sale-management/bills-list/pages/invoice-list.component.vue')
