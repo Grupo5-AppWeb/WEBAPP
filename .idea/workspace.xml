@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/managers/sale-management/bills-list/pages/invoice-list.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/sale-management/bills-list/pages/invoice-list.component.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/services/supplier-profile-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/services/supplier-profile-api.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suppliers/user-management/profile/views/SupplierProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/suppliers/user-management/profile/views/SupplierProfile.vue" afterDir="false" />
-    </list>
+    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Composition API Component" />
         <option value="JavaScript File" />
-        <option value="Vue Options API Component" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -56,29 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20241027_0002",
-    "git-widget-placeholder": "Marzál-U201824409",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jamir/Documents/Apps Web/WEBAPP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "ts.external.directory.path": "C:\\Users\\jamir\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "vue.recent.templates": [
-      "Vue Composition API Component",
-      "Vue Options API Component"
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\user-management\profile\views" />
@@ -91,7 +81,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19072.23" />
       </set>
     </attachedChunks>
   </component>
@@ -108,8 +98,6 @@
       <workItem from="1727549158783" duration="1513000" />
       <workItem from="1728340311841" duration="887000" />
       <workItem from="1728342078000" duration="628000" />
-      <workItem from="1730006578505" duration="20962000" />
-      <workItem from="1730083494630" duration="17371000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />
