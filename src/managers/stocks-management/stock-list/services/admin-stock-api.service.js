@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import { AdminStock } from '@/admins/stock-management/stock-list/model/admin-stock.entity';
+import { AdminStock } from '@/managers/stocks-management/stock-list/model/admin-stock.entity';
 
 export class AdminStockApiService{
     async getAdminStock(){

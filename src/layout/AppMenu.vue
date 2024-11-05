@@ -8,15 +8,27 @@ const model = ref([
         label: 'Menu',
         items: [
             { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/supplier/dashboard' },
-            { label: 'Order List', icon: 'pi pi-fw pi-table', to: '/supplier/orderlist' },
-            { label: 'New Orders', icon: 'pi pi-fw pi-table', to: '/supplier/new-orders' },
             { label: 'Notifications', icon: 'pi pi-fw pi-bell', to: '/supplier/notifications' },
             { label: 'Profile', icon: 'pi pi-fw pi-user', to: '/supplier/profile' },
-            { label: 'Bills', icon: 'pi pi-fw pi-book', to: '/manager/bills' },
-
-
         ]
-    }/*,
+    },
+    {
+        label: 'Admin',
+        items: [
+            { label: 'Bills', icon: 'pi pi-fw pi-book', to: '/manager/bills' },
+            { label: 'Inventory', icon: 'pi pi-fw pi-table', to: '/admin/inventory' }
+        ]
+    },
+    {
+        label: 'Supplier',
+        items: [
+            { label: 'Order List', icon: 'pi pi-fw pi-table', to: '/supplier/orderlist' },
+            { label: 'New Orders', icon: 'pi pi-fw pi-table', to: '/supplier/new-orders' },
+        ]
+    }
+
+
+    /*,
     {
         label: 'UI Components',
         items: [

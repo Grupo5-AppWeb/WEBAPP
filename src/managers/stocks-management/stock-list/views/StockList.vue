@@ -1,6 +1,6 @@
 <script setup>
 import {  onMounted, ref } from 'vue';
-import { AdminStockApiService } from '@/admins/stock-management/stock-list/services/admin-stock-api.service';
+import { AdminStockApiService } from '@/managers/stocks-management/stock-list/services/admin-stock-api.service';
 
 
 const stocks = ref([]);

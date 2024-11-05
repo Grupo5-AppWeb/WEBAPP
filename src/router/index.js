@@ -30,7 +30,7 @@ const router = createRouter({
                 {
                     path:'/admin/Inventory',
                     name: 'inventory',
-                    component:() => import('@/admins/stock-management/stock-list/views/StockList.vue')
+                    component:() => import('@/managers/stocks-management/stock-list/views/StockList.vue')
                 },
                 {
                     path: '/supplier/profile',
