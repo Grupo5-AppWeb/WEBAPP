@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="update: orders add delete update">
+      <change afterPath="$PROJECT_DIR$/src/landing/landing.component.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pages/login.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/login.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pages/register.component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/register.component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +111,7 @@
       <workItem from="1730297283767" duration="1497000" />
       <workItem from="1730378869425" duration="4024000" />
       <workItem from="1730391288092" duration="38000" />
+      <workItem from="1730846720475" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />

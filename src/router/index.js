@@ -153,7 +153,7 @@ const router = createRouter({
         {
             path: '/landing',
             name: 'landing',
-            component: () => import('@/views/pages/Landing.vue')
+            component: () => import('@/landing/landing.component.vue')
         },
         {
             path: '/pages/notfound',

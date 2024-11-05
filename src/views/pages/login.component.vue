@@ -60,7 +60,7 @@ export default {
                 </div>
                 <button class="buttonLogin" @click="login">SIGN UP</button>
                 <div class="signup-link">
-                    <span>New to Re-grill? <router-link to="/auth/register" class="register">Create an account</router-link></span>
+                    <span>New to Re-grill? <router-link to="/register" class="register">Create an account</router-link></span>
                 </div>
             </div>
         </div>

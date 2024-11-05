@@ -81,7 +81,7 @@ export default {
             <div class="have-account">
                 <label for="question">Already have an account?</label>
                 <span class="spacer"></span>
-                <router-link to="/auth/login" class="logIn">Log In</router-link>
+                <router-link to="/login" class="logIn">Log In</router-link>
             </div>
         </div>
     </div>
@@ -147,6 +147,15 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.have-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.have-account a:hover {
+    text-decoration: underline;
 }
 
 .textbox {
