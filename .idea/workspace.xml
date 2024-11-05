@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker" />
+    <list default="true" id="09698443-17d8-4b0b-99bf-f0608a526070" name="Changes" comment="feat: deploy to Docker">
+      <change afterPath="$PROJECT_DIR$/src/suppliers/order-management/order-list/model/supplier-new_order.entity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/suppliers/order-management/order-list/services/supplier-new_order-api.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/suppliers/order-management/order-list/views/NewOrderList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +39,12 @@
     &quot;assignee&quot;: &quot;OscarGarayar&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Grupo5-AppWeb/ReGrill-WebApplication.git&quot;,
-    &quot;accountId&quot;: &quot;e77f64be-0456-4cf5-a951-44205234febe&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Grupo5-AppWeb/WEBAPP",
+    "accountId": "e77f64be-0456-4cf5-a951-44205234febe"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -52,7 +59,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ONGAR/Documents/Universidad/AppWeb/repos/WEBAPP/sakai-vue/src/suppliers/order-management/order-list/services",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,12 +78,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\repos\WEBAPP\sakai-vue\src\suppliers\order-management\order-list\services" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\repos\WEBAPP\sakai-vue\src\suppliers\order-management\order-list\model" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\repos\WEBAPP\sakai-vue\src\suppliers\order-management\order-list\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\user-management\profile\views" />
-      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\user-management\profile\services" />
-      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\user-management\profile\model" />
-      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\order-management\order-list" />
-      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\sakaitemplate\sakai-vue\src\suppliers\communications\notifications" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\repos\WEBAPP\sakai-vue\src\suppliers\user-management\auth\views" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\repos\WEBAPP\sakai-vue\src" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\repos\WEBAPP\sakai-vue\src\suppliers\public\views" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\repos\WEBAPP\sakai-vue\src\suppliers" />
+      <recent name="C:\Users\ONGAR\Documents\Universidad\AppWeb\repos\WEBAPP\sakai-vue\src\suppliers\user-management" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -97,7 +111,8 @@
       <workItem from="1727549158783" duration="1513000" />
       <workItem from="1728340311841" duration="887000" />
       <workItem from="1728342078000" duration="628000" />
-      <workItem from="1728342832270" duration="950000" />
+      <workItem from="1728342832270" duration="5205000" />
+      <workItem from="1730072849977" duration="2632000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Supplier profile implemented">
       <option name="closed" value="true" />

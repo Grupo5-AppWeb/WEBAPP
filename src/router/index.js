@@ -37,6 +37,11 @@ const router = createRouter({
                     name: 'profile',
                     component: () => import('@/suppliers/user-management/profile/views/SupplierProfile.vue')
                 },
+                {
+                    path: '/supplier/new-orders',
+                    name: 'new_order',
+                    component: () => import('@/suppliers/order-management/order-list/views/NewOrderList.vue')
+                },
 
                 //-------------------------------------------------------------------------------------------------------------------------------
                 //-------------------------------------------------------------------------------------------------------------------------------
