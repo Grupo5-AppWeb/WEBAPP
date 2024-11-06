@@ -1,16 +1,16 @@
 <script setup>
-import {  onMounted, ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import { SupplierOrderApiService } from '@/suppliers/order-management/order-list/services/supplier-order-api.service';
 
 const expandedRows = ref([]);
 const orders = ref([]);
-onMounted(async ()=>{
+onMounted(async () => {
     const ordersService = new SupplierOrderApiService();
     const allOrders = await ordersService.getSupplierOrder();
 
     orders.value = allOrders;
     console.log(orders.value);
-})
+});
 
 // Evento para manejar la expansión de filas
 const onRowExpand = (event) => {
@@ -36,10 +36,10 @@ const onRowCollapse = (event) => {
                 <div class="p-4">
                     <h5>Products</h5>
                     <DataTable :value="data.items">
-                        <Column field="id" header="Id" ></Column>
-                        <Column field="name" header="Name" ></Column>
-                        <Column field="quantity" header="Quantity" ></Column>
-                        <Column field="price" header="Price" ></Column>
+                        <Column field="id" header="Id"></Column>
+                        <Column field="name" header="Name"></Column>
+                        <Column field="quantity" header="Quantity"></Column>
+                        <Column field="price" header="Price"></Column>
                     </DataTable>
                 </div>
 

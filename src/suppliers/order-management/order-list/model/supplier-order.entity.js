@@ -1,4 +1,4 @@
-export class SupplierOrder{
+export class SupplierOrder {
     constructor({ id, supplierId, orderDate, deliveryDate, status, items }) {
         this.id = id;
         this.supplierId = supplierId;
