@@ -210,7 +210,7 @@
       "status": "paid"
     },
     {
-      "id": 0,
+      "id": "0",
       "invoiceNumber": "F001-431324",
       "date": "2024-11-05",
       "client": "q",
@@ -218,7 +218,7 @@
       "status": "paid"
     },
     {
-      "id": 0,
+      "id": "0",
       "invoiceNumber": "F001-460353",
       "date": "2024-11-05",
       "client": "asf",
@@ -226,155 +226,131 @@
       "status": "pending"
     }
   ],
-    "recipes": [
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Octopus and Shrimp Ceviche with Yellow Chili Tiger's Milk",
+      "category": "Appetizers",
+      "description": "A fresh ceviche with octopus and shrimp, served with a creamy and spicy tiger's milk.",
+      "ingredients": [
         {
-            "id": 1,
-            "name": "Octopus and Shrimp Ceviche with Yellow Chili Tiger's Milk",
-            "category": "Appetizers",
-            "description": "A fresh ceviche with octopus and shrimp, served with a creamy and spicy tiger's milk.",
-            "ingredients": [
-                {
-                    "name": "Octopus",
-                    "quantity": "200 grams",
-                    "cost": 10
-                },
-                {
-                    "name": "Shrimp",
-                    "quantity": "100 grams",
-                    "cost": 7
-                },
-                {
-                    "name": "Yellow Chili",
-                    "quantity": "2 units",
-                    "cost": 1
-                }
-            ],
-            "image": "https://casualepicure.com/wp-content/uploads/2023/07/octopus-ceviche-11.jpg"
+          "name": "Octopus",
+          "quantity": "200 grams",
+          "cost": 10
         },
         {
-            "id": 2,
-            "name": "Seafood Paella",
-            "category": "Main Course",
-            "description": "A traditional Spanish paella with a mix of fresh seafood.",
-            "ingredients": [
-                {
-                    "name": "Rice",
-                    "quantity": "500 grams",
-                    "cost": 3
-                },
-                {
-                    "name": "Mussels",
-                    "quantity": "200 grams",
-                    "cost": 5
-                },
-                {
-                    "name": "Shrimps",
-                    "quantity": "150 grams",
-                    "cost": 6
-                }
-            ],
-            "image": "https://themediterraneanchick.com/wp-content/uploads/2020/09/IMG_0825-1-scaled.jpg"
+          "name": "Shrimp",
+          "quantity": "100 grams",
+          "cost": 7
         },
         {
-            "id": 3,
-            "name": "Carnitas Tacos",
-            "category": "Fast Food",
-            "description": "Traditional Mexican tacos with slow-cooked pork.",
-            "ingredients": [
-                {
-                    "name": "Tortillas",
-                    "quantity": "10 units",
-                    "cost": 2
-                },
-                {
-                    "name": "Pork",
-                    "quantity": "300 grams",
-                    "cost": 5
-                },
-                {
-                    "name": "Cilantro",
-                    "quantity": "50 grams",
-                    "cost": 0.5
-                }
-            ],
-            "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/04/Carnitas-Tacos-main.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Tomato Soup",
-            "category": "Soups",
-            "description": "A creamy and comforting soup made with fresh tomatoes and basil.",
-            "ingredients": [
-                {
-                    "name": "Tomatoes",
-                    "quantity": "4 units",
-                    "cost": 3
-                },
-                {
-                    "name": "Basil",
-                    "quantity": "20 grams",
-                    "cost": 1
-                },
-                {
-                    "name": "Cream",
-                    "quantity": "100 ml",
-                    "cost": 2
-                }
-            ],
-            "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/tomato-soup-recipe.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Chocolate Brownies",
-            "category": "Desserts",
-            "description": "Sweet and fluffy brownies made with dark chocolate and walnuts.",
-            "ingredients": [
-                {
-                    "name": "Dark Chocolate",
-                    "quantity": "200 grams",
-                    "cost": 4
-                },
-                {
-                    "name": "Flour",
-                    "quantity": "150 grams",
-                    "cost": 1
-                },
-                {
-                    "name": "Walnuts",
-                    "quantity": "50 grams",
-                    "cost": 2
-                }
-            ],
-            "image": "https://img.taste.com.au/kdMbjArS/taste/2010/01/chocolate-brownies-118925-2.jpg"
+          "name": "Yellow Chili",
+          "quantity": "2 units",
+          "cost": 1
         }
-    ],
-    "orders": [
+      ],
+      "image": "https://casualepicure.com/wp-content/uploads/2023/07/octopus-ceviche-11.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Carnitas Tacos",
+      "category": "Fast Food",
+      "description": "Traditional Mexican tacos with slow-cooked pork.",
+      "ingredients": [
         {
-            "id": 1,
-            "cash": 1,
-            "name": "Lemonade",
-            "table": 2,
-            "time": "11:53",
-            "status": "In preparation",
-            "quantity": 2
+          "name": "Tortillas",
+          "quantity": "10 units",
+          "cost": 2
         },
         {
-            "id": 2,
-            "cash": 2,
-            "name": "Burger",
-            "table": 5,
-            "time": "12:30",
-            "status": "Ready",
-            "quantity": 1
+          "name": "Pork",
+          "quantity": "300 grams",
+          "cost": 5
         },
         {
-            "id": 3,
-            "cash": 3,
-            "name": "Mostro",
-            "table": 4,
-            "time": "10:10",
-            "status": "In preparation",
-            "quantity": 4
+          "name": "Cilantro",
+          "quantity": "50 grams",
+          "cost": 0.5
         }
-    ]
+      ],
+      "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/04/Carnitas-Tacos-main.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Tomato Soup",
+      "category": "Soups",
+      "description": "A creamy and comforting soup made with fresh tomatoes and basil.",
+      "ingredients": [
+        {
+          "name": "Tomatoes",
+          "quantity": "4 units",
+          "cost": 3
+        },
+        {
+          "name": "Basil",
+          "quantity": "20 grams",
+          "cost": 1
+        },
+        {
+          "name": "Cream",
+          "quantity": "100 ml",
+          "cost": 2
+        }
+      ],
+      "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/tomato-soup-recipe.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Chocolate Brownies",
+      "category": "Desserts",
+      "description": "Sweet and fluffy brownies made with dark chocolate and walnuts.",
+      "ingredients": [
+        {
+          "name": "Dark Chocolate",
+          "quantity": "200 grams",
+          "cost": 4
+        },
+        {
+          "name": "Flour",
+          "quantity": "150 grams",
+          "cost": 1
+        },
+        {
+          "name": "Walnuts",
+          "quantity": "50 grams",
+          "cost": 2
+        }
+      ],
+      "image": "https://img.taste.com.au/kdMbjArS/taste/2010/01/chocolate-brownies-118925-2.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "cash": 1,
+      "name": "Lemonade",
+      "table": 2,
+      "time": "11:53",
+      "status": "In preparation",
+      "quantity": 2
+    },
+    {
+      "id": "2",
+      "cash": 2,
+      "name": "Burger",
+      "table": 5,
+      "time": "12:30",
+      "status": "Ready",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "cash": 3,
+      "name": "Mostro",
+      "table": 4,
+      "time": "10:10",
+      "status": "In preparation",
+      "quantity": 4
+    }
+  ]
 }
