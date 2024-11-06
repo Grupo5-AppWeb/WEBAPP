@@ -1,4 +1,5 @@
 import {SupplierProfile} from '@/suppliers/user-management/profile/model/supplier-profile.entity';
+import http from '@/shared/http-common';
 import axios from 'axios';
 
 export class SupplierProfileApiService {
@@ -17,8 +18,12 @@ export class SupplierProfileApiService {
                 businessType: supplierProfileData.businessType,
                 ordersFinished: supplierProfileData.ordersFinished,
                 ordersPending: supplierProfileData.ordersPending,
+                password: supplierProfileData.password,
             })
         })
+    }
+    getAll() {
+        return http.get(`/Suppliers`);
     }
     // Servicio para obtener un proveedor por su ID
     async getSupplierById(id) {
