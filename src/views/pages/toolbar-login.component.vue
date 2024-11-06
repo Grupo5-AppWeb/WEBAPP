@@ -9,7 +9,7 @@ export default {
         <pv-toolbar class="toolbar-container">
             <template #start>
                 <div class="toolbar-content">
-                    <router-link to="/" class="home">
+                    <router-link to="/supplier/dashboard" class="home">
                         <img src="@/assets/Logo.png" alt="logo" class="logo" />
                         <span class="title-container">RE-GRILL</span>
                         <span class="title-container">distributor</span>
