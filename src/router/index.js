@@ -10,17 +10,12 @@ const router = createRouter({
             children: [
                 {
                     path: '/',
-                    redirect: '/supplier/dashboard'
-                },
-                {
-                  path: '/auth/login',
-                  name: 'login',
-                    component: () => import('@/suppliers/user-management/auth/views/Login.vue')
+                    redirect: '/landing'
                 },
                 {
                     path: '/supplier/dashboard',
                     name: 'dashboard',
-                    component: () => import('@/suppliers/public/views/Dashboard.vue')
+                    component: () => import('@/public/views/Dashboard.vue')
                 },
                 {
                     path: '/supplier/orderlist',
@@ -28,9 +23,14 @@ const router = createRouter({
                     component: () => import('@/suppliers/order-management/order-list/views/OrderList.vue')
                 },
                 {
-                    path:'/supplier/notifications',
+                    path: '/supplier/notifications',
                     name: 'notifications',
-                    component:() => import('@/suppliers/communications/notifications/views/Notifications.vue')
+                    component: () => import('@/suppliers/communications/notifications/views/Notifications.vue')
+                },
+                {
+                    path:'/admin/Inventory',
+                    name: 'inventory',
+                    component:() => import('@/managers/stocks-management/stock-list/views/StockList.vue')
                 },
                 {
                     path: '/supplier/profile',
@@ -42,11 +42,41 @@ const router = createRouter({
                     name: 'new_order',
                     component: () => import('@/suppliers/order-management/order-list/views/NewOrderList.vue')
                 },
-
-                //-------------------------------------------------------------------------------------------------------------------------------
-                //-------------------------------------------------------------------------------------------------------------------------------
-                //-------------------------------------------------------------------------------------------------------------------------------
-                //-------------------------------------------------------------------------------------------------------------------------------
+                {
+                    path: '/manager/bills',
+                    name: 'bills',
+                    component: () => import('@/managers/sale-management/bills-list/pages/invoice-list.component.vue')
+                },
+                {
+                    path: '/recipe',
+                    name: 'recipe',
+                    component: () => import('@/administrator/recipes/views/recipe-grid.component.vue')
+                },
+                {
+                    path: '/recipe/recipeAdd',
+                    name: 'RecipeAdd',
+                    component: () => import('@/administrator/recipes/views/recipe-add.component.vue')
+                },
+                {
+                    path: '/recipe/viewRecipe',
+                    name: 'ViewRecipe',
+                    component: () => import('@/administrator/recipes/views/view-recipe.component.vue')
+                },
+                {
+                    path: '/orders',
+                    name: 'Orders',
+                    component: () => import('@/administrator/orders/views/order-view.component.vue')
+                },
+                {
+                    path: '/orders/updateOrder',
+                    name: 'UpdateOrder',
+                    component: () => import('@/administrator/orders/views/order-update.component.vue')
+                },
+                {
+                    path: '/orders/addOrder',
+                    name: 'OrderAdd',
+                    component: () => import('@/administrator/orders/views/order-add.component.vue')
+                },
                 {
                     path: '/uikit/formlayout',
                     name: 'formlayout',
@@ -138,7 +168,7 @@ const router = createRouter({
         {
             path: '/landing',
             name: 'landing',
-            component: () => import('@/views/pages/Landing.vue')
+            component: () => import('@/landing/landing.component.vue')
         },
         {
             path: '/pages/notfound',
@@ -147,10 +177,17 @@ const router = createRouter({
         },
 
         {
-            path: '/auth/login',
+            path: '/login',
             name: 'login',
-            component: () => import('@/suppliers/user-management/auth/views/Login.vue')
+            component: () => import('@/views/pages/login.component.vue')
         },
+
+        {
+            path: '/register',
+            name: 'register',
+            component: () => import('@/views/pages/register.component.vue')
+        },
+
         {
             path: '/auth/access',
             name: 'accessDenied',

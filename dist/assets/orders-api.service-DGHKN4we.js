@@ -1,0 +1,1 @@
+import{h as e}from"./http-common-CiLYNU3f.js";class o{getAll(){return e.get("/orders")}getById(r){return e.get(`/orders/${r}`)}create(r){return e.post("/orders",r)}update(r,t){return e.put(`/orders/${r}`,JSON.stringify(t))}delete(r){return e.delete(`/orders/${r}`)}}export{o as O};

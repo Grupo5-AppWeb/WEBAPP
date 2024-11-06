@@ -8,16 +8,36 @@ const model = ref([
         label: 'Menu',
         items: [
             { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/supplier/dashboard' },
-            { label: 'Order List', icon: 'pi pi-fw pi-table', to: '/supplier/orderlist' },
-            { label: 'New Orders', icon: 'pi pi-fw pi-table', to: '/supplier/new-orders' },
             { label: 'Notifications', icon: 'pi pi-fw pi-bell', to: '/supplier/notifications' },
             { label: 'Profile', icon: 'pi pi-fw pi-user', to: '/supplier/profile' },
-            { label: 'Log-out', icon: 'pi pi-fw pi-sign-in', to: '/auth/login' },
-
-
-
+            { label: 'Landing-Page', icon: 'pi pi-fw pi-desktop', to: '/landing' }
         ]
-    }/*,
+    },
+    {
+        label: 'Admin',
+        items: [
+            { label: 'Bills', icon: 'pi pi-fw pi-book', to: '/manager/bills' },
+            { label: 'Inventory', icon: 'pi pi-fw pi-table', to: '/admin/inventory' },
+            { label: 'Orders', icon: 'pi pi-fw pi-book', to: '/orders' },
+            { label: 'Recipes', icon: 'pi pi-fw pi-book', to: '/recipe' }
+        ]
+    },
+    {
+        label: 'Supplier',
+        items: [
+            { label: 'Order List', icon: 'pi pi-fw pi-table', to: '/supplier/orderlist' },
+            { label: 'New Orders', icon: 'pi pi-fw pi-table', to: '/supplier/new-orders' },
+        ]
+    },
+    {
+        label: 'Auth',
+        items: [
+            { label: 'Log-Out', icon: 'pi pi-fw pi-sign-in', to: '/login' }
+        ]
+    }
+
+
+    /*,
     {
         label: 'UI Components',
         items: [

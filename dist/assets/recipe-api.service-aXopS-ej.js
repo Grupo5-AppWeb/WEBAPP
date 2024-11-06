@@ -1,0 +1,1 @@
+import{h as r}from"./http-common-CiLYNU3f.js";class c{getAll(){return r.get("/recipes")}create(e){return r.post("/recipes",e)}getRecipeById(e){return r.get(`/recipes/${e}`)}delete(e){return r.delete(`/recipes/${e}`)}}export{c as R};
